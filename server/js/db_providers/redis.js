@@ -4,7 +4,7 @@ var cls = require("../lib/class"),
     Player = require('../player'),
     Messages = require("../message"),
     redis = require("redis"),
-    bcrypt = require("bcrypt");
+    bcrypt = require("bcrypt-nodejs");
 
 module.exports = DatabaseHandler = cls.Class.extend({
     init: function(config){
