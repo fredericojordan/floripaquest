@@ -6,7 +6,7 @@
   },
   "version": "0.0.1",
   "dependencies": {
-    "bcrypt": ">=0",
+    "bcrypt": "~1.0.0",
     "bison": "~1.1.1",
     "connect": "~3.3.3",
     "log": "~1.4.0",
@@ -26,8 +26,7 @@
     "sinon": ">=1"
   },
   "scripts": {
-    "test": "make test",
-    "preinstall": "npm install node-pre-gyp && npm rebuild bcrypt"
+    "test": "make test"
   },
   "engines": {
     "node": "0.10.x",
