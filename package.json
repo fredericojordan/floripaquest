@@ -26,7 +26,8 @@
     "sinon": ">=1"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "preinstall": "npm install node-pre-gyp"
   },
   "engines": {
     "node": "0.10.x",
