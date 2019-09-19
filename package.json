@@ -6,7 +6,7 @@
   },
   "version": "0.0.1",
   "dependencies": {
-    "bcrypt-nodejs": ">=0",
+    "bcryptjs": ">=0",
     "bison": "~1.1.1",
     "connect": "^3.7.0",
     "log": "~1.4.0",
