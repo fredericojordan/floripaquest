@@ -11,7 +11,7 @@
     "connect": "~3.3.3",
     "log": "~1.4.0",
     "memcache": "~0.3.0",
-    "morgan": "^1.5.0",f
+    "morgan": "^1.5.0",
     "redis": ">=0",
     "requirejs": ">=2",
     "sanitizer": "~0.1.2",
