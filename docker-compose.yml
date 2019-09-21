@@ -1,0 +1,24 @@
+version: "3"
+services:
+  server:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/usr/src/floripaquest/
+      - /usr/src/floripaquest/node_modules
+    command: node server/js/main.js
+
+    depends_on:
+      - redis
+
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+
+  memcached:
+    image: "memcached:1.5-alpine"
+    ports:
+      - "11211:11211"
+
