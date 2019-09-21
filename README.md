@@ -34,6 +34,13 @@ Getting the server up and running is pretty easy. You need to have the following
 * zlib-devel ← this is the Fedora/RHEL package name, others may be sightly different.  Not needed on windows.
 * Redis server ← this is needed for the game to connect to the backend database.
 
+
+Docker
+------
+
+- Run `docker-compose build` and `docker-compose up`
+- Access `localhost:8000` and go ahead play fun.
+
 Ubuntu
 ------
 
